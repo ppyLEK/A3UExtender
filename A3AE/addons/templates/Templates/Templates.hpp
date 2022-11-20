@@ -13,6 +13,7 @@ class Templates {
         flagTexture = "A3\Data_F\Flags\Flag_CSAT_CO.paa"; //path to an icon to be displayed in the selector
         name = "A3 CSAT 2"; //the name shown in the selector
         file = "Vanilla_AI_CSAT2"; //the template file name
+        maps[] = {}; //if this template should be prioritized on any maps (case sensetive to worldName)
         climate[] = {"arid", "arctic"}; //climate that the template is meant for
     };
 };
