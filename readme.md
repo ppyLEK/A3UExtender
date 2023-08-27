@@ -24,7 +24,7 @@ This is an example of how you could extend antistasi with new maps or templates 
       The new maps names start with `Antistasi Altis Extender` and the new templates are `CSAT` and `CSAT2`.
 
   Assuming everything went well you are now ready to make your own modifications.
-  Remember to remove unused content and read thoroughly through the filles while making any edits.
+  Remember to remove unused content and read thoroughly through the files while making any edits.
   As a hint all content is added from the config.cpp files located within each of the addons so you can follow that down to the files that govern the different parts like templates and maps etc.
 
 
