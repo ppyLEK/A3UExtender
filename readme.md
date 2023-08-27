@@ -9,7 +9,7 @@ This is an example of how you could extend antistasi with new maps or templates 
 
 # How to get started:
 - Run the `Install.ps1` script and follow the instructions on screen.
-- Run the `Build.ps1` script this will create a folder in the root folder called build and compile your extension into it.
+- Run the `Build.ps1` script. This will create a folder in the root folder called build and compile your extension into it.
 - Start the ArmA 3 launcher and in the launcher do the following:
   1) Under `Mods` -> `...More` select `add watched folder...` then `add custom folder...`.
       Navigate to your extensions root folder and select the newly created build folder.
