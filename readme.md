@@ -1,5 +1,5 @@
 # Antistasi Extender Example
-This is an example of how you could extend antistasi with new maps or templates or overwrite existing ones.
+This is an example of how you could extend Antistasi with new maps or templates or overwrite existing ones.
 
 # Requirements
   - Arma 3
