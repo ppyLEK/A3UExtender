@@ -1,4 +1,4 @@
-//this function is overwritten by A3AUE so that when antistasi starts a assassinate official mission, it will use this code instead
+//this function is overwritten by A3AE so that when antistasi starts a assassinate official mission, it will use this code instead
 systemChat "A3AE AS Official";
 #include "..\script_component.hpp"
 FIX_LINE_NUMBERS()

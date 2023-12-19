@@ -1,5 +1,5 @@
 # Antistasi Ultimate Extender Example
-This is an example of how you could extend Antistasi Ultimate with new maps or templates or overwrite existing ones.
+This is an example of how you could extend Antistasi Ultimate with new templates or overwrite existing ones.
 This is a fork of `A3AExtender` made by `Antistsi Official Community Arma 3`
 
 # Requirements
