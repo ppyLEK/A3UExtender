@@ -69,5 +69,5 @@ You can also distribute it in other ways other than the steam workshop simply by
 
 ## Small disclaimer:
 
-When you want other Antistasi players to easily find your extension, give it a descriptive name including the abbreviation `A3AUE` like for example `A3AUE - My awesome Antistasi Ultimate extension`.
+When you want other Antistasi players to easily find your extension, give it a descriptive name including the abbreviation `A3UE` like for example `A3UE - My awesome Antistasi Ultimate extension`.
 

@@ -1,4 +1,4 @@
-#define MODFOLDER A3AUE
+#define MODFOLDER A3UE
 #ifndef PREFIX
-    #define PREFIX A3AUE
+    #define PREFIX A3UE
 #endif

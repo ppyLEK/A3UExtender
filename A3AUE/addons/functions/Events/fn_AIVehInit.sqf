@@ -1,2 +1,2 @@
-systemChat "A3AUE: AI Veh Init";
+systemChat "A3UE: AI Veh Init";
 systemChat str _this;
