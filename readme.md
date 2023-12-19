@@ -21,7 +21,7 @@ This is a fork of `A3AExtender` made by `Antistsi Official Community Arma 3`
   3) Start the game and confirm that the new template is loaded by starting a local host session under multiplayer. Then start a game of antistasi and confirm that the
       new and overwritten templates are there (these are the example templates provided with the extender).
 
-      The new templates are `CSAT` and `CSAT2`.
+      The new templates are `AAF` and `AAF2`.
 
   Assuming everything went well you are now ready to make your own modifications.
   Remember to remove unused content and read thoroughly through the files while making any edits.
