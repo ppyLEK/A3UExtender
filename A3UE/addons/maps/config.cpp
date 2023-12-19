@@ -15,7 +15,7 @@ class CfgPatches {
 };
 
 class A3A { //global overwrite or inclussion of new navGrids or map info
-    #include "mapInfoGlobal.hpp"
+    #include "mapInfo.hpp"
     #include "NavGrid.hpp"
 };
 

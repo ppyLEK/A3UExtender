@@ -13,7 +13,6 @@ class CfgNotifications
 };
 
 class CfgDebriefing {
-    #include "..\missionDescription\CfgDebriefingContents.hpp"
 	class End1
 	{
 		title = "V I C T O R Y";
