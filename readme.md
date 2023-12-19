@@ -1,5 +1,6 @@
-# Antistasi Extender Example
-This is an example of how you could extend Antistasi with new maps or templates or overwrite existing ones.
+# Antistasi Ultimate Extender Example
+This is an example of how you could extend Antistasi Ultimate with new maps or templates or overwrite existing ones.
+This is a fork of `A3AExtender` made by `Antistsi Official Community Arma 3`
 
 # Requirements
   - Arma 3
@@ -16,19 +17,18 @@ This is an example of how you could extend Antistasi with new maps or templates 
       If successful it will have added that folder in the list of watched folders and a green box would have shown
       stating that a mod has been installed.
 
-  2) Load `Antistasi - The Mod` and the newly installed `A3 Antistasi Extender example` mods.
-  3) Start the game and confirm that the new template and/or map is loaded by starting a local host session under multiplayer
-      and confirming that the new map and overwritten map is there. Then start a game of antistasi and confirm that the
-      new and overwritten templates are there (these are the example maps and templates provided with the extender).
+  2) Load `Antistasi Ultimate - Mod` and the newly installed `A3 Antistasi Ultimate Extender example` mods.
+  3) Start the game and confirm that the new template is loaded by starting a local host session under multiplayer. Then start a game of antistasi and confirm that the
+      new and overwritten templates are there (these are the example templates provided with the extender).
 
-      The new maps names start with `Antistasi Altis Extender` and the new templates are `CSAT` and `CSAT2`.
+      The new templates are `CSAT` and `CSAT2`.
 
   Assuming everything went well you are now ready to make your own modifications.
   Remember to remove unused content and read thoroughly through the files while making any edits.
-  As a hint all content is added from the config.cpp files located within each of the addons so you can follow that down to the files that govern the different parts like templates and maps etc.
+  As a hint all content is added from the config.cpp files located within each of the addons so you can follow that down to the files that govern the different parts like templates and functions etc.
 
 
-# Example additions
+<!-- # Example additions
 ## Maps
 Antistasi now supports 3rd party map porting.
 
@@ -38,7 +38,7 @@ There are two examples added for working with maps. Adding a new map and overwri
 
   You will find all the information regarding this under `your extension mod/addons/maps`.
 
-  Take care to study all the files in the addon to not miss crucial porting steps.
+  Take care to study all the files in the addon to not miss crucial porting steps. -->
 
 ## Templates
 Antistasi now supports 3rd party template additions/overwrites.
@@ -53,7 +53,7 @@ Antistasi now supports 3rd party template additions/overwrites.
 - Antistasi now has events that you can listen to and extend existing functionality.
   A list of all events and their parameters can be found in the in game config under: `A3A >> Events`.
 - In addition you can overwrite any of Antistasi's functions to add, change or remove functionality. This includes full systems (be aware that this is more complex and can break on updates).
-  To do so, simply add a function to the `A3A` class of `CfgFunctions.hpp` under the addon functions (you can also replicate the config.cpp to allow this in any other addon).
+  To do so, simply add a function to the `A3A` and/or `A3AU` class of `CfgFunctions.hpp` under the addon functions (you can also replicate the config.cpp to allow this in any other addon).
 
 # Releasing your extension
 Now that you have added the content/functionality you wanted its time to release the extension.
@@ -69,5 +69,5 @@ You can also distribute it in other ways other than the steam workshop simply by
 
 ## Small disclaimer:
 
-When you want other Antistasi players to easily find your extension, give it a descriptive name including the abbreviation `A3AE` like for example `A3AE - RHS Nato Template Overhaul`.
+When you want other Antistasi players to easily find your extension, give it a descriptive name including the abbreviation `A3AUE` like for example `A3AUE - My awesome Antistasi Ultimate extension`.
 

@@ -1,7 +1,7 @@
 
 $regValidName = "^[a-z][\w]*$"
-"`n`nWelcome to the A3A Extender first time setup!`n=================================================`n`n"
-"Mod naming should follow these restrictions: [A-Z] [0-9] [_]`nit should also be all lowercase to maintain better compatibility with linux servers`nExample: a3ae_my_faction`n`n"
+"`n`nWelcome to the A3AU Extender first time setup!`n=================================================`n`n"
+"Mod naming should follow these restrictions: [A-Z] [0-9] [_]`nit should also be all lowercase to maintain better compatibility with linux servers`nExample: a3aue_my_faction`n`n"
 
 while ($true) {
     $exstensionName = Read-Host "Enter your extension name following theses rules:`n`n- Starting with a letter`n- Containing only the characters a-z 0-9 and _`n- Only containing lowercase letters`n"
