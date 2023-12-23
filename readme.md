@@ -53,7 +53,7 @@ Antistasi now supports 3rd party template additions/overwrites.
 - Antistasi now has events that you can listen to and extend existing functionality.
   A list of all events and their parameters can be found in the in game config under: `A3A >> Events`.
 - In addition you can overwrite any of Antistasi's functions to add, change or remove functionality. This includes full systems (be aware that this is more complex and can break on updates).
-  To do so, simply add a function to the `A3A` and/or `A3AU` class of `CfgFunctions.hpp` under the addon functions (you can also replicate the config.cpp to allow this in any other addon).
+  To do so, simply add a function to the `A3A` and/or `A3U` class of `CfgFunctions.hpp` under the addon functions (you can also replicate the config.cpp to allow this in any other addon).
 
 # Releasing your extension
 Now that you have added the content/functionality you wanted its time to release the extension.
