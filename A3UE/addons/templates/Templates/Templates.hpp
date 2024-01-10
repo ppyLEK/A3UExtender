@@ -1,19 +1,18 @@
-class Templates {
-    class Vanilla_Base; //import Vanilla_Base from A3A to use with defining a new vanilla template
+class Templates 
+{
+    class Vanilla_Civ_Zombie; // import from Misc\templates.hpp in main ultimate mod
 
-    class Vanilla_AAF { // overwrite existing template
-        basepath = QPATHTOFOLDER(Templates\Vanilla);
-        file = "Vanilla_AI_AAF";
+    class Corrupted_Civ_Zombie_Base : Vanilla_Civ_Zombie
+    {
+        requiredAddons[] = {"WBK_ZombieCreatures", "SSV_Android_Zombies"};
+        logo = QPATHTOFOLDER(Pictures\antistasi_ultimate_logo.paa);
+        flagTexture = "a3\ui_f\data\logos\arma3_white_ca.paa";
     };
 
-    class Vanilla_AAF2 : Vanilla_Base
+    class Corrupted_Civ_Zombie : Corrupted_Civ_Zombie_Base
     {
-        basepath = QPATHTOFOLDER(Templates\Vanilla); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
-        side = "Occ"; //the side the faction defaults to, one of the following: Inv, Occ, Reb, Riv, Civ
-        flagTexture = "a3\data_f\flags\flag_aaf_co.paa"; //path to an icon to be displayed in the selector
-        name = "A3 AAF 2"; //the name shown in the selector
-        file = "Vanilla_AI_AAF2"; //the template file name
-        maps[] = {}; //if this template should be prioritized on any maps (case sensetive to worldName)
-        climate[] = {"arid", "arctic"}; //climate that the template is meant for
+        name = "Corrupted";
+        file = "Corrupted_Civ_Zombie";
+        description = "All android life was wiped out, being replaced by Corrupted. Corrupted are android shells, stripped down to their onboard programming.";
     };
 };

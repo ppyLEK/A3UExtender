@@ -1,5 +1,5 @@
-name = "A3 Antistasi Ultimate Extender example";
-author = "A3-Antistasi dev team, A3-Antistasi Ultimate dev team";
-tooltip = "Antistasi Ultimate Extender example";
+name = "A3 Antistasi Ultimate Android Extender";
+author = "Silence";
+tooltip = "Antistasi Ultimate Android Extender";
 actionName = "GitHub";
-action = "https://github.com/Westalgie/A3UExtender"
+action = ""
