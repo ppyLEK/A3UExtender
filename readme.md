@@ -114,7 +114,9 @@ You should first make sure that any example content not being used is removed, y
 Next update the mod.cpp file to contain the correct information for you (for steam release you can delete the meta.cpp from the build folder afterwards).
 
 Now simply run the `Build` script in the root folder (Or the VSCode equivalent) to build it and use Arma 3 Tools for signing and publishing the extension.
-*(Note: it will not sign it for you (unless using VSCode and a key is given in the .json), this needs to be done manually before publishing with `Arma 3 Tools` -> `DSUtils` & `Publisher`)*.
+
+- *(Note: it will not sign it for you (unless using VSCode and a key is given in the .json), this needs to be done manually before publishing with `Arma 3 Tools` -> `DSUtils` & `Publisher`)*.
+
 You can also distribute it in other ways other than the steam workshop simply by sending the build output to the users.
 
 ## Small disclaimer:
