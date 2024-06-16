@@ -20,13 +20,13 @@ private _hasMarksman = "mark" in A3A_enabledDLC;
 //////////////////////////
 //       Vehicles       //
 //////////////////////////
-["ammobox", "Box_FIA_Support_F"] call _fnc_saveToTemplate; 	//Don't touch or you die a sad and lonely death!
+["ammobox", "Box_FIA_Support_F"] call _fnc_saveToTemplate;
 ["surrenderCrate", "Box_Syndicate_Wps_F"] call _fnc_saveToTemplate;
 
 private _lightArmedVehicles = [];
 private _lightUnarmedVehicles = [];
 
-if (_hasApex) then {
+if (_hasAddonX) then {
 	_lightArmedVehicles append ["I_C_Offroad_02_AT_F", "I_C_Offroad_02_LMG_F"];
 	_lightUnarmedVehicles pushBack "I_C_Offroad_02_unarmed_F";
 } else {
@@ -34,23 +34,12 @@ if (_hasApex) then {
 	_lightUnarmedVehicles pushBack "I_C_Offroad_02_unarmed_F";
 };
 
-if (_hasWs) then {
-	_lightArmedVehicles append ["O_G_Offroad_01_armor_AT_lxWS", "O_G_Offroad_01_armor_armed_lxWS"];
-	_lightUnarmedVehicles pushBack "O_G_Offroad_01_armor_base_lxWS";
-};
-
-private _trucks = ["O_G_Van_01_transport_F"];
-
-if (_hasLawsOfWar) then {
-	_trucks pushBack "O_G_Van_02_transport_F";
-};
-
 ["vehiclesRivalsLightArmed", _lightArmedVehicles] call _fnc_saveToTemplate;
 ["vehiclesRivalsTrucks", _trucks] call _fnc_saveToTemplate;
 ["vehiclesRivalsCars", _lightUnarmedVehicles] call _fnc_saveToTemplate;
-["vehiclesRivalsAPCs", []] call _fnc_saveToTemplate;
-["vehiclesRivalsTanks", []] call _fnc_saveToTemplate;
-["vehiclesRivalsHelis", []] call _fnc_saveToTemplate;			
+["vehiclesRivalsAPCs", [""]] call _fnc_saveToTemplate;
+["vehiclesRivalsTanks", [""]] call _fnc_saveToTemplate;
+["vehiclesRivalsHelis", [""]] call _fnc_saveToTemplate;			
 ["vehiclesRivalsUavs", ["O_UAV_01_F"]] call _fnc_saveToTemplate;			
 
 ["staticLowWeapons", ["O_G_HMG_02_F"]] call _fnc_saveToTemplate;
@@ -68,6 +57,10 @@ if (_hasLawsOfWar) then {
 //////////////////////////
 //       Loadouts       //
 //////////////////////////
+
+/*
+	["Weapon Classname", "Muzzle Classname", "Accessory Classname", "Scope Classname", ["Magazine Classname 1", "Magazine Classname 2"], ["GL Magazine Classname 1"], "Bipod Classname"]
+*/
 private _loadoutData = call _fnc_createLoadoutData;
 private _rifles = [
 	["arifle_TRG21_F", "", "", "", ["30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_Tracer_Green"], [], ""],
@@ -172,10 +165,10 @@ _loadoutData set ["machineGuns", _mgs];
 _loadoutData set ["marksmanRifles", _marksmanRifles];
 _loadoutData set ["lightATLaunchers", _rpgs];
 _loadoutData set ["lightHELaunchers", [
-["launch_RPG32_F", "", "", "", ["RPG32_HE_F", "RPG32_HE_F"], [], ""]
+	["launch_RPG32_F", "", "", "", ["RPG32_HE_F", "RPG32_HE_F"], [], ""]
 ]];
 _loadoutData set ["AALaunchers", [
-["launch_O_Titan_F", "", "acc_pointer_IR", "", ["Titan_AA"], [], ""]
+	["launch_O_Titan_F", "", "acc_pointer_IR", "", ["Titan_AA"], [], ""]
 ]];
 _loadoutData set ["sidearms", _pistols];
 
@@ -295,7 +288,6 @@ _pilotLoadoutData set ["helmets", ["H_PilotHelmetHeli_O"]];
 
 
 // ##################### DO NOT TOUCH ANYTHING BELOW THIS LINE #####################
-
 
 /////////////////////////////////
 //    Unit Type Definitions    //

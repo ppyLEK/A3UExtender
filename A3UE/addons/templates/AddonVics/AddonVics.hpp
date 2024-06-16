@@ -1,6 +1,6 @@
 class AddonVics
 {
-/*
+    /*
     class Modset
     {
         path = QPATHTOFOLDER(Templates\AddonVics); // location of the addon file
@@ -11,7 +11,7 @@ class AddonVics
         description = ""; // a short description of the addon
         loadedMessage = ""; // a short description of the effects of loading the mod
     };
-*/
+    */
     class RDS
     {
         path = QPATHTOFOLDER(Templates\AddonVics);

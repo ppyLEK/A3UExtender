@@ -1,7 +1,9 @@
 #include "script_component.hpp"
 
-class CfgPatches {
-    class ADDON {
+class CfgPatches 
+{
+    class ADDON 
+    {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
@@ -14,7 +16,8 @@ class CfgPatches {
     };
 };
 
-class A3A { //global overwrite or inclussion of new navGrids or map info
+class A3A 
+{ //global overwrite or inclussion of new navGrids or map info
     #include "mapInfo.hpp"
     #include "NavGrid.hpp"
 };

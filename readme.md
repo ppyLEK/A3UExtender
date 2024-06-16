@@ -5,12 +5,15 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
 # Requirements
   - Arma 3
   - Arma 3 Tools
-  - Common Sense
-  - Ability to not overcomplicate.
-  - Ability to debug. (Optional if you like pain.)
     
   Arma 3 and Arma 3 Tools need to be run once from steam.
 
+  ## Useful Things
+
+  - [Advanced Developer Tools](https://steamcommunity.com/sharedfiles/filedetails/?id=2369477168)
+  - https://paa.gruppe-adler.de/ (Image > PAA. If converting multiple files, use `ImageToPAA` included in Arma 3 Tools)
+
+  - Ability to debug.
   The ability to debug is acquired with experience. A good thing to remember is:
 
   `"If you can't un-break the code you broke, it isn't code. It's a bunch of useless characters."` - Silence
@@ -27,7 +30,7 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
 
 - Download the [Arma Dev](https://marketplace.visualstudio.com/items?itemName=ole1986.arma-dev) extension.
 - Download the [Arma 3 - Open Last RPT](https://marketplace.visualstudio.com/items?itemName=bux578.vscode-openlastrpt) extension. 
-> Optional, but will help immensely with debugging. You will need to do a lot of debugging. You are not 'him'.
+> Optional, but will help immensely with debugging. You will need to do a lot of debugging. You are not 'that guy'.
 - Open the whole project in VSCode. 
 
   - You can do this by right clicking the root folder and clicking "Open with Code". 
@@ -42,8 +45,10 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
   "clientDirs": [
       "A3UE/addons/core",
       "A3UE/addons/functions",
+      "A3UE/addons/hals",
       "A3UE/addons/maps",
-      "A3UE/addons/templates"
+      "A3UE/addons/templates",
+      "A3UE/addons/ultimate"
   ],
 ```
 > Be sure to fact check this as these may not always match.
@@ -71,7 +76,9 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
   3) Start the game and confirm that the new template is loaded by starting a local host session under multiplayer. Then start a game of antistasi and confirm that the
       new and overwritten templates are there (these are the example templates provided with the extender).
 
-      The new templates are `AAF` and `AAF2`.
+      Also confirm that the arms dealer is selling everything vanilla for free, and selling a free quadbike.
+
+      The new templates are `AAF` and `AAF_New`.
 
   Assuming everything went well you are now ready to make your own modifications.
   Remember to remove unused content and read thoroughly through the files while making any edits.
@@ -79,6 +86,14 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
 
 
 # Example additions
+- Note: If dealing with file paths, always use the correct macros UNLESS you can't due to it being in another mod.
+
+  - Macros are essentially a function in how they work - these ones in particular append your parameter to a predefined path.
+
+    - The benefit of this is that you only have to change this path once (if you need to change it at all.)
+
+  - Some relevant macros for paths are `QPATHTOFOLDER`, `QCPATHTO`, etc.
+
 ## Maps
 - Antistasi now supports 3rd party map porting.
 
@@ -104,6 +119,9 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
   A list of all events and their parameters can be found in the in game config under: `A3A >> Events`.
 - In addition you can overwrite any of Antistasi's functions to add, change or remove functionality. This includes full systems (be aware that this is more complex and can break on updates).
   To do so, simply add a function to the `A3A` and/or `A3U` and/or `A3UE` class of `CfgFunctions.hpp` under the addon functions (you can also replicate the config.cpp to allow this in any other addon).
+
+## Arms Dealer
+- Navigate to `addons` and read the `README.md` file.
 
 # Releasing your extension
 Now that you have added the content/functionality you wanted its time to release the extension.
