@@ -1,5 +1,9 @@
 - Read this file on github for nice formatting.
 
+- Note: This is for Antistasi Ultimate 10.9.0+
+
+    - This guide will not work on versions of Antistasi Ultimate below 10.9.0.
+    
 # Adding things to the Arms Dealer.
 
 - When referencing `my_extension`, this can be whatever you want to (or have) called it. Keep it short and simple!
