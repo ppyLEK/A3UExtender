@@ -19,7 +19,7 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
   `"If you can't un-break the code you broke, it isn't code. It's a bunch of useless characters."` - Silence
 
 # How to get started:
-- Do not use both methods at once. It overcomplicates things and that goes against the 4th requirement!
+- Do not use both methods at once. It overcomplicates things!
 ### .ps1 Method
 - Run the `Install.ps1` script and follow the instructions on screen.
 - Run the `Build.ps1` script. This will create a folder in the root folder called build and compile your extension into it.
