@@ -2,6 +2,12 @@
 
 # Adding things to the Arms Dealer.
 
+- When referencing `my_extension`, this can be whatever you want to (or have) called it. Keep it short and simple!
+
+- When referencing `something_mod`, this will be the name of the mod that you're using to do something.
+
+    - For example, if I am creating a weapon stock for RHS, I would name the class `addons_rhs`
+
 - To start, you'll want to add a new entry in `ultimate/config/trader/cfgTraderAddons.hpp` and create a new class.
 
     - It is recommended to call this class `addons_mod`.
@@ -37,6 +43,8 @@
         - Fill in each class as you see fit and delete classes you don't need.
 
     - Once you've done your `mod.hpp` file, you can now add a new "stock" entry in the main `config.hpp` under the following config path `cfgHALsStore >> stores >> my_extension_stock_mod`
+
+        - Make sure to `#include` your `mod.hpp` file in `cfgHALsStore >> categories`
 
         - Make sure that the `categories[]` value correctly lists each class in your `mod.hpp` file. Use the `config/vanilla.hpp` and `config.hpp >> my_extension_stock_vanilla` entries as a guide for this if you get stuck.
 
