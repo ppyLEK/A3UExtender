@@ -1,5 +1,5 @@
 /*
-past output from the function: A3A_Logistics_fnc_generateHardPoints
+passed output from the function: A3A_Logistics_fnc_generateHardPoints
 */
 
 /*

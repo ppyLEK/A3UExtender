@@ -16,10 +16,9 @@ class CfgPatches
     };
 };
 
-class A3A 
+class A3U
 {
-    #include "Templates.hpp"
-    #include "CfgLogistics.hpp" //this should be at the end of the config.cpp as it will redefine the macro ADDON
+    #include "config\cfgForbiddenItems.hpp"
+    #include "config\plane\cfgPlaneLoadouts.hpp"
+    #include "config\trader\cfgTraderMods.hpp"
 };
-
-#include "CfgMarkers.hpp"

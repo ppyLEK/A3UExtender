@@ -8,7 +8,7 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QDOUBLES(PREFIX,core)};
+        requiredAddons[] = {};
         author = AUTHOR;
         authors[] = { AUTHORS };
         authorUrl = "";
@@ -16,10 +16,6 @@ class CfgPatches
     };
 };
 
-class A3A 
-{
-    #include "Templates.hpp"
-    #include "CfgLogistics.hpp" //this should be at the end of the config.cpp as it will redefine the macro ADDON
+class CfgHALsAddons {
+    #include "..\hals\Addons\store\config.hpp"
 };
-
-#include "CfgMarkers.hpp"

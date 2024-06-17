@@ -54,11 +54,6 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["lootCrate", ""] call _fnc_saveToTemplate;
 ["rallyPoint", ""] call _fnc_saveToTemplate;
 
-//vehicle class, price, type, unlock condition
-["blackMarketStock", [
-    ["classname", 500000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}]
-]] call _fnc_saveToTemplate;
-
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
 ["animations", [
     ["vehClass", ["animsource_example_1", 0.25, "animsource_example_2", 0.3]]

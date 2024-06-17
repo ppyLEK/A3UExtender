@@ -2,6 +2,8 @@
 //   Side Information   //
 //////////////////////////
 
+#include "..\..\script_component.hpp" // TAKE NOTE OF THIS. WITHOUT THIS, YOU CAN'T USE MACROS LIKE QPATHTOFOLDER.
+
 ["name", ""] call _fnc_saveToTemplate;
 ["spawnMarkerName", ""] call _fnc_saveToTemplate;
 
