@@ -1,5 +1,11 @@
 # Advice and Tips™ by Silence
 
+- Do not take my advice too seriously.
+
+  - You are your own person and you do your own things. These pieces of advice only serve as a general guide to stick to or as an expression of my thoughts.
+
+  - My goal is that you *might* take something away from reading this and apply it in your own ways.
+
 - Index
 
   - [General](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice#general-advice)
