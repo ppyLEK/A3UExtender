@@ -140,3 +140,7 @@ You can also distribute it in other ways other than the steam workshop simply by
 ## Small disclaimer:
 
 When you want other Antistasi players to easily find your extension, give it a descriptive name including the abbreviation `A3UE` like for example `A3UE - My Awesome Antistasi Ultimate Extension`.
+
+## Need more advice?
+
+Read the [Developer Advice](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice) page.
