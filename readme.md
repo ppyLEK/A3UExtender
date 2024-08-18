@@ -29,7 +29,7 @@ This is a fork of [A3AExtender](https://github.com/official-antistasi-community/
 > Yes, there is a difference between Visual Studio and Visual Studio Code. You should not be using Visual Studio for this unless you genuinely know and understand its limitations, and are fine with them. (It won't change the fact that you're wrong, however.)
 
 - Download the [Arma Dev](https://marketplace.visualstudio.com/items?itemName=ole1986.arma-dev) extension.
-- Download the [Arma 3 - Open Last RPT](https://marketplace.visualstudio.com/items?itemName=bux578.vscode-openlastrpt) extension. 
+- Download the [Arma 3 - Open Last RPT](https://marketplace.visualstudio.com/items?itemName=bux578.vscode-openlastrpt) extension.
 > Optional, but will help immensely with debugging. You will need to do a lot of debugging. You are not 'that guy'.
 - Open the whole project in VSCode. 
 
