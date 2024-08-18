@@ -1,5 +1,13 @@
 # Advice and Tips™ by Silence
 
+- Index
+
+  - [General](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice#general-advice)
+  - [Best Practices](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice#best-practices-advice)
+  - [Coding](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice#coding-advice)
+  - [Errors And Exceptions](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice#errorsexceptions)
+  - [Data Types](https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice#data-types)
+
 ## General Advice
 
   ### Do not think that something is impossible.
