@@ -73,17 +73,17 @@
   ---
 
   > First Attempt - Prototype. (Get the idea down.)
-  ![image](https://github.com/user-attachments/assets/e355fdd6-1da5-46d6-a3d5-7acc9894718d)
+  ![image](images/radio_1.png)
 
   ---
 
   > Second Attempt - Iteration. (Make it work.)
-  ![image](https://github.com/user-attachments/assets/083e4e51-bb70-44bf-b546-e23edf76361a)
+  ![image](images/radio_2.png)
 
   ---
 
   > Third Attempt - Refinement. (Make it work, and look nice.)
-  ![image](https://github.com/user-attachments/assets/b7f897b2-9901-43ca-85e6-b8304270e30f)
+  ![image](images/radio_3.png)
 
   ---
 
@@ -92,17 +92,17 @@
   ---
 
   > First Attempt - Prototype.
-  ![image](https://github.com/user-attachments/assets/82ce4846-7c84-47b1-8085-69f0514720cc)
+  ![image](images/anom_1.png)
 
   ---
 
   > Second Attempt - Iteration. An extra 0 can cause... undesired outcomes.
-  ![image](https://github.com/user-attachments/assets/f3d5ec18-3521-4002-bba1-73e9db9a2f1b)
+  ![image](images/anom_2.png)
 
   ---
 
   > Third Attempt - Refinement.
-  ![image](https://github.com/user-attachments/assets/d17ede7c-6aa2-4954-9159-9a356bc3e811)
+  ![image](images/anom_3.png)
 
   ---
 
@@ -111,19 +111,19 @@
   ---
 
   > The first attempt.
-  ![image](https://github.com/user-attachments/assets/9a299752-119d-4bd8-a08a-258b692f3c92)
+  ![image](images/logo_1.png)
   
   ---
 
   > The second attempt.
-  ![image](https://github.com/user-attachments/assets/38249464-4fa4-4e87-a4a6-d5cadcc9cb07)
+  ![image](images/logo_2.png)
 
   - We did not settle on these logo designs because it was deemed they were too similar to Antistasi Community and Antistasi Plus.
 
   ---
 
   > Even more attempts before we finally settled on attempt_7 and attempt_9. The first 4 were designed by stutpip.
-  ![image](https://github.com/user-attachments/assets/a982e12d-550e-4a1f-9539-93aac3bdea96)
+  ![image](images/logo_3.png)
 
   ---
 
@@ -354,17 +354,17 @@
   ---
 
   > Monolith/Military Concept
-  ![image](https://github.com/user-attachments/assets/51626589-cbe1-4c9c-bdf0-32fe01cbd937)
+  ![image](images/faction_1.png)
 
   ---
 
   > Clear Sky/Freedom Concept
-  ![image](https://github.com/user-attachments/assets/83a11f0d-de8e-44c4-a5e1-ab6a4d5eeda6)
+  ![image](images/faction_2.png)
 
   ---
 
   > Western Loyalist Concept
-  ![image](https://github.com/user-attachments/assets/0e420c73-08a2-440d-a012-3985deb16daa)
+  ![image](images/faction_3.png)
 
   ### Be reasonable with mod usage.
 
@@ -387,3 +387,13 @@
   ### Test.
 
   - Test things you make. Do not let your ego get in the way and go "It's fine."
+
+  ### Sign/key your mod.
+
+  - This will allow people to run it on servers that use key signature verifications.
+
+  - Use DSSignFile in Arma 3 Tools to generate a key (it will give you two):
+    - `bikey` - this is the one you distribute with your addon.
+    - `biprivatekey` - you use this one to sign. As the name implies, keep it private.
+    - PBO files are signed with the `biprivatekey`.
+    - The `bikey` should be copied into your `@Addon\keys` folder.
